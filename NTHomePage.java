@@ -14,6 +14,7 @@ public class NTHomePage {
 	String url = "https://nichethyself.com/tourism/home.html";
 
 	public NTHomePage() {
+		System.out.println("");
 		System.setProperty("webdriver.chrome.driver", 
 				"C:\\Users\\91820\\eclipse-workspace\\webdrivertraining\\test\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
